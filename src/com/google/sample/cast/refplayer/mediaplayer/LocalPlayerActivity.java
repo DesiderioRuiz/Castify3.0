@@ -502,8 +502,8 @@ public class LocalPlayerActivity extends AppCompatActivity {
         boolean isConnected = (mCastSession != null)
                 && (mCastSession.isConnected() ||
                 mCastSession.isConnecting());
-        mControllers.setVisibility(isConnected ? View.GONE : View.VISIBLE);
-        mPlayCircle.setVisibility(isConnected ? View.GONE : View.VISIBLE);
+        mControllers.setVisibility(isConnected ? View.GONE : View.INVISIBLE);
+        mPlayCircle.setVisibility(isConnected ? View.GONE : View.INVISIBLE);
         switch (state) {
             case PLAYING:
                 mLoading.setVisibility(View.INVISIBLE);
