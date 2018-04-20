@@ -79,8 +79,8 @@ public class LocalPlayerActivity extends AppCompatActivity {
     private TextView mTitleView;
     private TextView mDescriptionView;
     private TextView mStartText;
-    private TextView mEndText;
-    private SeekBar mSeekbar;
+//    private TextView mEndText;
+//    private SeekBar mSeekbar;
     private ImageView mPlayPause;
     private ProgressBar mLoading;
     private View mControllers;
@@ -239,7 +239,7 @@ public class LocalPlayerActivity extends AppCompatActivity {
                         break;
                     case REMOTE:
                         if (mCastSession != null && mCastSession.isConnected()) {
-                            loadRemoteMedia(mSeekbar.getProgress(), true);
+//                            loadRemoteMedia(mSeekbar.getProgress(), true);
                         }
                         break;
                     default:
@@ -424,8 +424,8 @@ public class LocalPlayerActivity extends AppCompatActivity {
             public void onPrepared(MediaPlayer mp) {
                 Log.d(TAG, "onPrepared is reached");
                 mDuration = mp.getDuration();
-                mEndText.setText(Utils.formatMillis(mDuration));
-                mSeekbar.setMax(mDuration);
+//                mEndText.setText(Utils.formatMillis(mDuration));
+//                mSeekbar.setMax(mDuration);
                 restartTrickplayTimer();
             }
         });
@@ -453,31 +453,31 @@ public class LocalPlayerActivity extends AppCompatActivity {
             }
         });
 
-        mSeekbar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-                if (mPlaybackState == PlaybackState.PLAYING) {
-                    play(seekBar.getProgress());
-                } else if (mPlaybackState != PlaybackState.IDLE) {
-                    mVideoView.seekTo(seekBar.getProgress());
-                }
-                startControllersTimer();
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-                stopTrickplayTimer();
-                mVideoView.pause();
-                stopControllersTimer();
-            }
-
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int progress,
-                    boolean fromUser) {
-                mStartText.setText(Utils.formatMillis(progress));
-            }
-        });
+//        mSeekbar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
+//
+//            @Override
+//            public void onStopTrackingTouch(SeekBar seekBar) {
+//                if (mPlaybackState == PlaybackState.PLAYING) {
+//                    play(seekBar.getProgress());
+//                } else if (mPlaybackState != PlaybackState.IDLE) {
+//                    mVideoView.seekTo(seekBar.getProgress());
+//                }
+//                startControllersTimer();
+//            }
+//
+//            @Override
+//            public void onStartTrackingTouch(SeekBar seekBar) {
+//                stopTrickplayTimer();
+//                mVideoView.pause();
+//                stopControllersTimer();
+//            }
+//
+//            @Override
+//            public void onProgressChanged(SeekBar seekBar, int progress,
+//                    boolean fromUser) {
+//                mStartText.setText(Utils.formatMillis(progress));
+//            }
+//        });
 
         mPlayPause.setOnClickListener(new OnClickListener() {
 
@@ -491,10 +491,10 @@ public class LocalPlayerActivity extends AppCompatActivity {
     }
 
     private void updateSeekbar(int position, int duration) {
-        mSeekbar.setProgress(position);
-        mSeekbar.setMax(duration);
+//        mSeekbar.setProgress(position);
+//        mSeekbar.setMax(duration);
         mStartText.setText(Utils.formatMillis(position));
-        mEndText.setText(Utils.formatMillis(duration));
+//        mEndText.setText(Utils.formatMillis(duration));
     }
 
     private void updatePlayButton(PlaybackState state) {
@@ -627,8 +627,8 @@ public class LocalPlayerActivity extends AppCompatActivity {
         mAuthorView = (TextView) findViewById(R.id.textView3);
         mStartText = (TextView) findViewById(R.id.startText);
         mStartText.setText(Utils.formatMillis(0));
-        mEndText = (TextView) findViewById(R.id.endText);
-        mSeekbar = (SeekBar) findViewById(R.id.seekBar1);
+//        mEndText = (TextView) findViewById(R.id.endText);
+//        mSeekbar = (SeekBar) findViewById(R.id.seekBar1);
         mPlayPause = (ImageView) findViewById(R.id.imageView2);
         mLoading = (ProgressBar) findViewById(R.id.progressBar1);
         mControllers = findViewById(R.id.controllers);
@@ -690,7 +690,7 @@ public class LocalPlayerActivity extends AppCompatActivity {
 
                     if (mPlaybackState == PlaybackState.PLAYING) {
                         mVideoView.pause();
-                        loadRemoteMedia(mSeekbar.getProgress(), true);
+//                        loadRemoteMedia(mSeekbar.getProgress(), true);
                         finish();
                         return;
                     } else {
