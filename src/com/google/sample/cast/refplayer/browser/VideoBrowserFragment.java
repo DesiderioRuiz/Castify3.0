@@ -50,8 +50,8 @@ public class VideoBrowserFragment extends Fragment implements VideoListAdapter.I
         LoaderManager.LoaderCallbacks<List<MediaItem>> {
 
     private static final String TAG = "VideoBrowserFragment";
-//    private static final String CATALOG_URL = "https://pastebin.com/raw/xS69FebM";
-    private static final String CATALOG_URL = "http://tecnotv.xyz/peliculas.m3u";
+    private static final String CATALOG_URL = "https://pastebin.com/raw/xS69FebM";
+//    private static final String CATALOG_URL = "http://tecnotv.xyz/peliculas.m3u";
 //    private static final String CATALOG_URL = "http://tecnotv.xyz/peliculas.m3u";
     //private static final String CATALOG_URL = "http://ragnaroktv.com/tv/lista.m3u";
     private RecyclerView mRecyclerView;

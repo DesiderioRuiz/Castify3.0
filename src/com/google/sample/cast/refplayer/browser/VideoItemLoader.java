@@ -16,28 +16,22 @@
 
 package com.google.sample.cast.refplayer.browser;
 
-import com.google.gson.Gson;
-import com.google.sample.cast.refplayer.model.Group;
-import com.google.sample.cast.refplayer.model.Parent;
-import com.google.sample.cast.refplayer.model.Station;
 import com.google.sample.cast.refplayer.utils.MediaItem;
-import com.google.sample.cast.refplayer.utils.Utils;
 
 import android.content.Context;
 import android.support.v4.content.AsyncTaskLoader;
 import android.util.Log;
-import org.json.JSONObject;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.URL;
+import java.io.StringReader;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 
 public class VideoItemLoader extends AsyncTaskLoader<List<MediaItem>> {
 
@@ -52,14 +46,19 @@ public class VideoItemLoader extends AsyncTaskLoader<List<MediaItem>> {
 
     public ArrayList<String> readURLs(String url) {
         if(url == null) return null;
-
+        String data = "";
         try {
-
-            URL urls = new URL(url);
-            BufferedReader in = new BufferedReader(new InputStreamReader(urls
-                    .openStream()));
+            Document doc = Jsoup.connect(url).get();
+            Elements elements = doc.getAllElements();
+            for (Element element : elements) {
+                data = element.ownText();
+                if (!data.isEmpty()) {
+                    System.out.println(data);
+                }
+            }
+            BufferedReader in = new BufferedReader(new StringReader(data));
             String str;
-            while ((str = in.readLine()) != null) {
+            while ((str = in.readLine()) != null ) {
                 allURls.add(str);
             }
             in.close();
@@ -118,27 +117,24 @@ public class VideoItemLoader extends AsyncTaskLoader<List<MediaItem>> {
                     mi= new MediaItem();
 
                     try {
-                        String[] datas = line.split(" ");
+                        String[] datas = line.split("#EXTINF:-1,");
                         for (String data : datas){
-                            if (data.contains("tvg-logo")){
-                               data = data.replaceAll("tvg-logo=", "").replaceAll("\"", "");
-                               mi.addImage(data);
-                            } else if (data.contains("group-title")){
-                                data = data.replaceAll("group-title=", "").replaceAll("\"", "");
-                                mi.setTitle(data);
+                            if (data.contains(",")){
+                               data = data.replaceAll(",", "");
+                               mi.setTitle(data);
+                            } else if (data.contains("http")){
+                                data = data.replaceAll("$http", "").replaceAll("\"", "");
+                                mi.setUrl(data);
+                                mediaList.add(mi);
                             }
                         }
                     } catch (Exception e ){
+                        e.printStackTrace();
                     }
-                } else if (line.startsWith("http") && line.endsWith("m3u8") || line.endsWith("mkv") || line.endsWith("mp4") || line.endsWith("avi") || line.endsWith("php")|| line.endsWith("ts")){
-                    mi.setUrl(line);
-                    if (mi.getImages()!=null && !mi.getImages().isEmpty())
-                        mediaList.add(mi);
                 }
             }
             return mediaList;
         } catch (Exception e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return null;
