@@ -35,7 +35,7 @@
     <string name="loading">Loading&#8230;</string>
     <string name="no_video_found">No video was found</string>
     <string name="about_app">About Castfy</string>
-    <string name="version">Castfy: %1$s</string>
+    <string name="version">Castfy: 4.0</string>
     <string name="session_reconnection_attempt">Attempting to recover previous
         session&#8230;</string>
 

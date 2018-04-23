@@ -8,6 +8,7 @@ import com.google.android.gms.cast.framework.media.NotificationOptions;
 import com.google.sample.cast.refplayer.expandedcontrols.ExpandedControlsActivity;
 
 import android.content.Context;
+import android.widget.EditText;
 
 import java.util.List;
 

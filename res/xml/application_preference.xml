@@ -24,6 +24,14 @@
             android:selectable="false"
             android:shouldDisableView="false"
             android:title="@string/version" />
+
+        <EditTextPreference
+            android:id="@+id/add"
+            android:defaultValue="New URL"
+            android:key="edit_text"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Add Url" />
     </PreferenceCategory>
 
 </PreferenceScreen>

@@ -21,6 +21,7 @@ import com.google.sample.cast.refplayer.utils.MediaItem;
 import android.content.Context;
 import android.support.v4.content.AsyncTaskLoader;
 import android.util.Log;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -45,7 +46,7 @@ public class VideoItemLoader extends AsyncTaskLoader<List<MediaItem>> {
     }
 
     public ArrayList<String> readURLs(String url) {
-        if(url == null) return null;
+        if (url == null) return null;
         String data = "";
         try {
             Document doc = Jsoup.connect(url).get();
@@ -58,11 +59,13 @@ public class VideoItemLoader extends AsyncTaskLoader<List<MediaItem>> {
             }
             BufferedReader in = new BufferedReader(new StringReader(data));
             String str;
-            while ((str = in.readLine()) != null ) {
+            while ((str = in.readLine()) != null && allURls.size() != 1) {
                 allURls.add(str);
             }
             in.close();
-            return allURls ;
+
+            return allURls;
+
         } catch (Exception e) {
             e.printStackTrace();
             return null;
@@ -72,7 +75,7 @@ public class VideoItemLoader extends AsyncTaskLoader<List<MediaItem>> {
     @Override
     public List<MediaItem> loadInBackground() {
         try {
-           return parseHLSMetadata(readURLs(this.mUrl));
+            return parseHLSMetadata(readURLs(this.mUrl));
             //return VideoProvider.buildMedia(mUrl);
 //            Parent mParent = new Gson().fromJson(Utils.json, Parent.class);
 
@@ -105,36 +108,41 @@ public class VideoItemLoader extends AsyncTaskLoader<List<MediaItem>> {
         }
     }
 
-    private List<MediaItem> parseHLSMetadata(List<String> i ){
+    private List<MediaItem> parseHLSMetadata(List<String> i) {
         try {
             List<MediaItem> mediaList = new ArrayList<>();
             MediaItem mi = new MediaItem();
-            String digitRegex = "\\d+";
-            Pattern p = Pattern.compile(digitRegex);
+            if (mediaList.size() == 0) {
+                String digitRegex = "\\d+";
+                Pattern p = Pattern.compile(digitRegex);
+                for (String line : i) {
+                    if (line.contains("#EXTINF")) { //once found EXTINFO use runner to get the next line which contains the media file, parse duration of the segment
+                        try {
+                            String[] datas = line.split("#EXTINF:-1,");
+                            for (String data : datas) {
+                                mi = new MediaItem();
+                                if (data.endsWith(" "))
+                                    data = data.substring(0, data.length() - 1);
+                                int last = data.lastIndexOf(" ");
+                                if (last != -1) {
+                                    String title = data.substring(0, last);
+                                    String url = data.substring(last + 1);
 
-            for(String line: i){
-                if(line.contains("#EXTINF")){ //once found EXTINFO use runner to get the next line which contains the media file, parse duration of the segment
-                    mi= new MediaItem();
-
-                    try {
-                        String[] datas = line.split("#EXTINF:-1,");
-                        for (String data : datas){
-                            if (data.contains(",")){
-                               data = data.replaceAll(",", "");
-                               mi.setTitle(data);
-                            } else if (data.contains("http")){
-                                data = data.replaceAll("$http", "").replaceAll("\"", "");
-                                mi.setUrl(data);
-                                mediaList.add(mi);
+                                    mi.setTitle(title);
+                                    mi.setUrl(url);
+                                    mediaList.add(mi);
+                                }
                             }
+                        } catch (Exception e) {
+                            e.printStackTrace();
                         }
-                    } catch (Exception e ){
-                        e.printStackTrace();
                     }
                 }
+
+                return mediaList;
             }
-            return mediaList;
-        } catch (Exception e) {
+        } catch (
+                Exception e) {
             e.printStackTrace();
         }
         return null;

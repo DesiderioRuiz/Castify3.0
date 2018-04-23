@@ -25,9 +25,13 @@ import android.os.Bundle;
 import android.preference.EditTextPreference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
+import android.widget.EditText;
 
 public class CastPreference extends PreferenceActivity
         implements OnSharedPreferenceChangeListener {
+
+//    EditText txtTexto = (EditText)findViewById(R.id.add);
+//    String texto = txtTexto.getText().toString();
 
     @SuppressWarnings("deprecation")
     @Override

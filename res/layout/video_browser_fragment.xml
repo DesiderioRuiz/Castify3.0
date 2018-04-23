@@ -41,4 +41,6 @@
         android:text="@string/no_video_found"
         android:visibility="gone" />
 
+
+
 </RelativeLayout>

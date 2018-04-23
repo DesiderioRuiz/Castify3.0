@@ -88,10 +88,6 @@ public class VideoBrowserActivity extends AppCompatActivity {
                 i = new Intent(VideoBrowserActivity.this, CastPreference.class);
                 startActivity(i);
                 break;
-            case R.id.action_url:
-                i = new Intent(VideoBrowserActivity.this, CastPreference.class);
-                startActivity(i);
-                break;
         }
         return true;
     }
