@@ -19,6 +19,7 @@ package com.google.sample.cast.refplayer.browser;
 import com.google.sample.cast.refplayer.utils.MediaItem;
 
 import android.content.Context;
+import android.os.Environment;
 import android.support.v4.content.AsyncTaskLoader;
 import android.util.Log;
 
@@ -28,8 +29,18 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.StringReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -72,10 +83,36 @@ public class VideoItemLoader extends AsyncTaskLoader<List<MediaItem>> {
         }
     }
 
+    private String readFileFromRawDirectory(){
+        InputStream iStream = getContext().getResources().openRawResource(
+                getContext().getResources().getIdentifier("lista",
+                        "raw", getContext().getPackageName())
+        );
+        ByteArrayOutputStream byteStream = null;
+        try {
+            byte[] buffer = new byte[iStream.available()];
+            iStream.read(buffer);
+            byteStream = new ByteArrayOutputStream();
+            byteStream.write(buffer);
+            byteStream.close();
+            iStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return byteStream.toString();
+    }
+
+
+
     @Override
     public List<MediaItem> loadInBackground() {
+        String links;
         try {
-            return parseHLSMetadata(readURLs(this.mUrl));
+            links = readFileFromRawDirectory();
+
+            List<String> linksList = Arrays.asList(links.split("\\n"));
+
+            return parseHLSMetadata(linksList);
             //return VideoProvider.buildMedia(mUrl);
 //            Parent mParent = new Gson().fromJson(Utils.json, Parent.class);
 
@@ -100,6 +137,8 @@ public class VideoItemLoader extends AsyncTaskLoader<List<MediaItem>> {
 //
 //            }
 
+//            return null;
+
 //            return VideoProvider.buildMedia(mUrl);
 //            return mediaList;
         } catch (Exception e) {
@@ -108,7 +147,9 @@ public class VideoItemLoader extends AsyncTaskLoader<List<MediaItem>> {
         }
     }
 
+
     private List<MediaItem> parseHLSMetadata(List<String> i) {
+
         try {
             List<MediaItem> mediaList = new ArrayList<>();
             MediaItem mi = new MediaItem();
