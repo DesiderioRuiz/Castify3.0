@@ -38,7 +38,7 @@ import java.util.List;
  */
 public class VideoListAdapter extends RecyclerView.Adapter<VideoListAdapter.ViewHolder> {
 
-    private static final float mAspectRatio = 9f / 16f;
+    private static final float mAspectRatio = 20f / 26f;
     private final ItemClickListener mClickListener;
     private List<MediaItem> videos;
 
@@ -119,7 +119,7 @@ public class VideoListAdapter extends RecyclerView.Adapter<VideoListAdapter.View
         }
 
         public void setImage(String imgUrl) {
-            mAquery.id(mImgView).width(114).image(imgUrl,
+            mAquery.id(mImgView).width(70).image(imgUrl,
                     true, true, 0, R.drawable.default_video, null, 0, mAspectRatio);
         }
 

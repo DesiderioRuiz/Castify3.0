@@ -156,26 +156,49 @@ public class VideoItemLoader extends AsyncTaskLoader<List<MediaItem>> {
             if (mediaList.size() == 0) {
                 String digitRegex = "\\d+";
                 Pattern p = Pattern.compile(digitRegex);
+
+
+
                 for (String line : i) {
                     if (line.contains("#EXTINF")) { //once found EXTINFO use runner to get the next line which contains the media file, parse duration of the segment
                         try {
-                            String[] datas = line.split("#EXTINF:-1,");
+                            String[] datas = line.split("#EXTINF:-1");
                             for (String data : datas) {
                                 mi = new MediaItem();
+
+                                String[] infos = data.split(" ");
+
+                                for (String info : infos){
+                                    if (info.contains("tvg-logo")){
+                                        mi.addImage(info.trim().replaceAll("tvg-logo=", "").replaceAll("\"", ""));
+                                    }
+                                    if (info.contains("group-title")){
+                                        mi.setTitle(data.substring(data.indexOf("group-title=")+12));
+                                    }
+                                }
+
+                               /**
                                 if (data.endsWith(" "))
                                     data = data.substring(0, data.length() - 1);
                                 int last = data.lastIndexOf(" ");
                                 if (last != -1) {
                                     String title = data.substring(0, last);
                                     String url = data.substring(last + 1);
-
+                                    String image = data.substring(1 + last);
+                                    mi.addImage(image);
                                     mi.setTitle(title);
                                     mi.setUrl(url);
                                     mediaList.add(mi);
                                 }
+                                */
                             }
                         } catch (Exception e) {
                             e.printStackTrace();
+                        }
+                    } else {
+                        if (mi!= null && mi.getTitle()!=null) {
+                            mi.setUrl(line);
+                            mediaList.add(mi);
                         }
                     }
                 }
