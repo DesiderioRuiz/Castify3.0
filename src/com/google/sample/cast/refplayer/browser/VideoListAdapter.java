@@ -33,9 +33,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * An {@link ArrayAdapter} to populate the list of videos.
- */
 public class VideoListAdapter extends RecyclerView.Adapter<VideoListAdapter.ViewHolder> {
 
     private static final float mAspectRatio = 20f / 26f;
