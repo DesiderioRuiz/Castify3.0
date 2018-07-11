@@ -291,7 +291,6 @@ http://king365tv.homeip.net:2103/live/test63894/mailtest/5128.ts
 http://king365tv.homeip.net:2103/live/test63894/mailtest/5127.ts
 #EXTINF:-1 tvg-id="" tvg-name="|NL| NICK HITS / MUSIC" tvg-logo="" group-title="Netherlands (NL)",|NL| NICK HITS / MUSIC
 http://king365tv.homeip.net:2103/live/test63894/mailtest/5126.ts
-#EXTM3U
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/canal-0.jpg" group-title=#0
 http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/611/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-accion.jpg" group-title=Movistar + Accion
