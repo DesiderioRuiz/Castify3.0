@@ -291,7 +291,7 @@ public class LocalPlayerActivity extends AppCompatActivity {
             return;
         }
         mControllersTimer = new Timer();
-        mControllersTimer.schedule(new HideControllersTask(), 2000);
+        mControllersTimer.schedule(new HideControllersTask(), 500);
     }
 
     // should be called from the main thread

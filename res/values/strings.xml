@@ -16,7 +16,7 @@
   -->
 <resources>
 
-    <string name="app_name">Castfy</string>
+    <string name="app_name">CastFy</string>
     <string name="app_id">4F8B3483</string>
     <string name="action_settings">About</string>
     <string name="action_url">Add Url</string>
@@ -35,7 +35,7 @@
     <string name="loading">Loading&#8230;</string>
     <string name="no_video_found">No video was found</string>
     <string name="about_app">About Castfy</string>
-    <string name="version">Castfy: 4.0</string>
+    <string name="version">Castfy: 4.3.0</string>
     <string name="session_reconnection_attempt">Attempting to recover previous
         session&#8230;</string>
 

@@ -1,211 +1,329 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/tve1.jpg" group-title=TVE 1
-http://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@583042/master.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/tve2.jpg" group-title=TVE 2
-http://1sn.ns1.name:18800/live/asnjeri1AlbLocBoxFreeForMe/fdsgrewgeafwegea/2682.ts
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/antena3.jpg group-title=Antena 3
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/615/index.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/canalcuatro.jpg" group-title=Cuatro
-http://cuatro-mediaset-esp-live.secure.footprint.net/mediaset/cuatro/stream1/streamPlaylist.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/tele5.jpg" group-title=Telecinco
-http://telecinco-mediaset-esp-live.secure.footprint.net/mediaset/telecinco/stream1/streamPlaylist.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/lasexta.jpg" group-title=La Sexta
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/615/index.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-series-extra.jpg" group-title=Movistar + Series Xtra
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/568/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-extra.jpg" group-title=¡Movistar + Xtra
-http://iptvfree1.com:6969/live/preet_1985@hotmail.com/EtkkCWYSat/2715.ts
-#EXTINF:-1 tvg-logo="https://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/calle13-44x36.jpg" group-title=¡Calle 13
-http://1sn.ns1.name:18800/live/asnjeri1AlbLocBoxFreeForMe/fdsgrewgeafwegea/1186.ts
-#EXTINF:-1 tvg-logo="https://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/cosmo.jpg" group-title=Cosmo
-http://mypanel.tv:8080/live/berto/berto/13537.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/fox.jpg" group-title=Fox
-http://mypanel.tv:8080/live/berto/berto/7220.m3u8
-#EXTINF:-1 tvg-logo="https://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/foxcrime.jpg" group-title=Fox Life
-http://mypanel.tv:8080/live/berto/berto/7219.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/syfy-44x36.jpg" group-title=SyFy
-http://1sn.ns1.name:18800/live/asnjeri1AlbLocBoxFreeForMe/fdsgrewgeafwegea/3473.ts
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/tnt.jpg" group-title=TNT
-http://mypanel.tv:8080/live/berto/berto/7177.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/divinity.jpg" group-title=Divinity
-http://mdslivehls-i.akamaihd.net/hls/live/571648/divinity/bitrate_4.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/neox.jpg" group-title=Neox
-http://mypanel.tv:8080/live/berto/berto/8762.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/nickelodeon.jpg" group-title=¡Nickelodeon
-http://1sn.ns1.name:18800/live/asnjeri1AlbLocBoxFreeForMe/fdsgrewgeafwegea/1589.ts
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/nova.jpg" group-title=Nova
-http://1sn.ns1.name:18800/live/asnjeri1AlbLocBoxFreeForMe/fdsgrewgeafwegea/1588.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QAVKJAV.png" group-title=RTVE 24h
-http://hlsackdn_gl8-lh.akamaihd.net/i/hlsdvrlive_1@81183/master.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/fdf.jpg" group-title=FDF
-https://mdslivehls-i.akamaihd.net/hls/live/571650/fdf/bitrate_4.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/energy.jpg" group-title=Energy
-http://mypanel.tv:8080/live/berto/berto/8765.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/mega.jpg" group-title=¡Mega
-http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/mtvespana.jpg" group-title=MTV Espana
-http://mypanel.tv:8080/live/berto/berto/8759.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/atreseries.jpg" group-title=¡A3 Series
-http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-estrenos.jpg" group-title=Movistar Estrenos
-http://mypanel.tv:8080/live/berto/berto/7222.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-accion.jpg" group-title=Movistar + Acción
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/576/index.m3u8
+#EXTVLCOPT--http-reconnect=true
+
+
+
+#EXTINF:-1 tvg-id="LA1.es" tvg-name="|ES|TVE_LA_1_HD" tvg-logo="http://i.imgur.com/XtAYr2M.png" group-title="Espagnoles (España)",|ES|TVE_LA_1_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/433.ts
+#EXTINF:-1 tvg-id="LA1.es" tvg-name="|ES|LA_1_FHD" tvg-logo="http://i.imgur.com/XtAYr2M.png" group-title="Espagnoles (España)",|ES|LA_1_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2152.ts
+#EXTINF:-1 tvg-id="LA2.es" tvg-name="|ES|TVE_LA_2_HD" tvg-logo="http://i.imgur.com/VprG0bb.png" group-title="Espagnoles (España)",|ES|TVE_LA_2_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/435.ts
+#EXTINF:-1 tvg-id="Antena3.sp" tvg-name="|ES|ANTENNA_3 HD" tvg-logo="http://i.imgur.com/tMp0lYH.png" group-title="Espagnoles (España)",|ES|ANTENNA_3 HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/617.ts
+#EXTINF:-1 tvg-id="Antena3.es" tvg-name="|ES|ANTENNA_3_FHD" tvg-logo="http://i.imgur.com/tMp0lYH.png" group-title="Espagnoles (España)",|ES|ANTENNA_3_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2150.ts
+#EXTINF:-1 tvg-id="Cuatro.sp" tvg-name="|ES|CUATRO_HD" tvg-logo="http://i.imgur.com/nmYUcNR.png" group-title="Espagnoles (España)",|ES|CUATRO_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/581.ts
+#EXTINF:-1 tvg-id="Cuatro.es" tvg-name="|ES|CUATRO_FHD" tvg-logo="http://i.imgur.com/nmYUcNR.png" group-title="Espagnoles (España)",|ES|CUATRO_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2151.ts
+#EXTINF:-1 tvg-id="Telecinco.sp" tvg-name="|ES|TELECINCO_HD" tvg-logo="http://i.imgur.com/596NBnH.png" group-title="Espagnoles (España)",|ES|TELECINCO_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/434.ts
+#EXTINF:-1 tvg-id="Telecinco.es" tvg-name="|ES|TELECINCO_FHD" tvg-logo="http://i.imgur.com/596NBnH.png" group-title="Espagnoles (España)",|ES|TELECINCO_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2149.ts
+#EXTINF:-1 tvg-id="LaSexta.sp" tvg-name="|ES|LA_SEXTA_HD" tvg-logo="http://i.imgur.com/19mt7Mr.png" group-title="Espagnoles (España)",|ES|LA_SEXTA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/432.ts
+#EXTINF:-1 tvg-id="LaSexta.es" tvg-name="|ES|LA_SEXTA_FHD" tvg-logo="http://i.imgur.com/19mt7Mr.png" group-title="Espagnoles (España)",|ES|LA_SEXTA_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2148.ts
+#EXTINF:-1 tvg-id="" tvg-name="|ES|24_HORAS" tvg-logo="" group-title="Espagnoles (España)",|ES|24_HORAS
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2123.ts
+#EXTINF:-1 tvg-id="TVIInt.pt" tvg-name="|ES| TVEi" tvg-logo="" group-title="Espagnoles (España)",|ES| TVEi
+http://king365tv.homeip.net:2103/live/test63894/mailtest/1901.ts
+#EXTINF:-1 tvg-id="" tvg-name="|ES|TELENOVELAS_HD" tvg-logo="" group-title="Espagnoles (España)",|ES|TELENOVELAS_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2121.ts
+#EXTINF:-1 tvg-id="" tvg-name="|ES|13_TV" tvg-logo="" group-title="Espagnoles (España)",|ES|13_TV
+http://king365tv.homeip.net:2103/live/test63894/mailtest/6056.ts
+#EXTINF:-1 tvg-id="AragonTV.es" tvg-name="|ES|ARAGON_TV" tvg-logo="" group-title="Espagnoles (España)",|ES|ARAGON_TV
+http://king365tv.homeip.net:2103/live/test63894/mailtest/6055.ts
+#EXTINF:-1 tvg-id="CaracolTV.es" tvg-name="|ES|CARACOL" tvg-logo="" group-title="Espagnoles (España)",|ES|CARACOL
+http://king365tv.homeip.net:2103/live/test63894/mailtest/3145.ts
+#EXTINF:-1 tvg-id="Neox.sp" tvg-name="|ES|NEOX" tvg-logo="http://i.imgur.com/DrOdroa.png" group-title="Espagnoles (España)",|ES|NEOX
+http://king365tv.homeip.net:2103/live/test63894/mailtest/625.ts
+#EXTINF:-1 tvg-id="Divinity.es" tvg-name="|ES|DIVINITY" tvg-logo="http://i.imgur.com/GJnqReJ.png" group-title="Espagnoles (España)",|ES|DIVINITY
+http://king365tv.homeip.net:2103/live/test63894/mailtest/965.ts
+#EXTINF:-1 tvg-id="Energy.es" tvg-name="|ES|ENERGY" tvg-logo="http://i.imgur.com/p5NMdYu.png" group-title="Espagnoles (España)",|ES|ENERGY
+http://king365tv.homeip.net:2103/live/test63894/mailtest/846.ts
+#EXTINF:-1 tvg-id="FDF.sp" tvg-name="|ES|FACTORIA_DE_FICCION" tvg-logo="http://i.imgur.com/umQTdyW.png" group-title="Espagnoles (España)",|ES|FACTORIA_DE_FICCION
+http://king365tv.homeip.net:2103/live/test63894/mailtest/847.ts
+#EXTINF:-1 tvg-id="Nova.sp" tvg-name="|ES|NOVA_HD" tvg-logo="http://i.imgur.com/zzGWcSM.png" group-title="Espagnoles (España)",|ES|NOVA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/722.ts
+#EXTINF:-1 tvg-id="TVGalicia.es" tvg-name="|ES|TV_GALICIA" tvg-logo="http://i.imgur.com/0mZLMKn.png" group-title="Espagnoles (España)",|ES|TV_GALICIA
+http://king365tv.homeip.net:2103/live/test63894/mailtest/618.ts
+#EXTINF:-1 tvg-id="AndaluciaTVsat.sp" tvg-name="|ES|CANAL_SUR_ANDALUCIA" tvg-logo="http://i.imgur.com/O95lhg8.png" group-title="Espagnoles (España)",|ES|CANAL_SUR_ANDALUCIA
+http://king365tv.homeip.net:2103/live/test63894/mailtest/715.ts
+#EXTINF:-1 tvg-id="Paramount.es" tvg-name="|ES|PARAMOUNT_CHANNEL" tvg-logo="http://i.imgur.com/0UR3OJo.png" group-title="Espagnoles (España)",|ES|PARAMOUNT_CHANNEL
+http://king365tv.homeip.net:2103/live/test63894/mailtest/634.ts
+#EXTINF:-1 tvg-id="" tvg-name="▀▄ ES ▀▄▀▄▀▄  CINE ▄▀▄▀▄▀" tvg-logo="" group-title="Espagnoles (España)",▀▄ ES ▀▄▀▄▀▄  CINE ▄▀▄▀▄▀
+http://king365tv.homeip.net:2103/live/test63894/mailtest/3714.ts
+#EXTINF:-1 tvg-id="AXNhd.sp" tvg-name="|ES|AXN_HD" tvg-logo="http://i.imgur.com/WAaY3sT.png" group-title="Espagnoles (España)",|ES|AXN_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/631.ts
+#EXTINF:-1 tvg-id="AXN.es" tvg-name="|ES|AXN_FHD" tvg-logo="http://i.imgur.com/WAaY3sT.png" group-title="Espagnoles (España)",|ES|AXN_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2263.ts
+#EXTINF:-1 tvg-id="AXNWhite.es" tvg-name="|ES|AXN_WHITE_HD" tvg-logo="http://i.imgur.com/3geLFGb.png" group-title="Espagnoles (España)",|ES|AXN_WHITE_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/632.ts
+#EXTINF:-1 tvg-id="AXNWhite.es" tvg-name="|ES|AXN_WHITE_FHD" tvg-logo="http://i.imgur.com/3geLFGb.png" group-title="Espagnoles (España)",|ES|AXN_WHITE_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2264.ts
+#EXTINF:-1 tvg-id="Fox.sp" tvg-name="|ES|FOX_HD" tvg-logo="http://i.imgur.com/DDB0iSK.png" group-title="Espagnoles (España)",|ES|FOX_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/630.ts
+#EXTINF:-1 tvg-id="Fox.es" tvg-name="|ES|FOX_FHD" tvg-logo="http://i.imgur.com/DDB0iSK.png" group-title="Espagnoles (España)",|ES|FOX_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2265.ts
+#EXTINF:-1 tvg-id="FoxLife.sp" tvg-name="|ES|FOX_LIFE_HD" tvg-logo="http://i.imgur.com/h0p4NOx.png" group-title="Espagnoles (España)",|ES|FOX_LIFE_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/629.ts
+#EXTINF:-1 tvg-id="AMC.es" tvg-name="|ES|AMC_HD" tvg-logo="http://i.imgur.com/MprnsMD.png" group-title="Espagnoles (España)",|ES|AMC_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/810.ts
+#EXTINF:-1 tvg-id="CosmopolitanHD.es" tvg-name="|ES|COSMO_HD" tvg-logo="http://i.imgur.com/uujFhEy.png" group-title="Espagnoles (España)",|ES|COSMO_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/809.ts
+#EXTINF:-1 tvg-id="CosmopolitanHD.es" tvg-name="|ES|COSMO_FHD" tvg-logo="http://i.imgur.com/uujFhEy.png" group-title="Espagnoles (España)",|ES|COSMO_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2205.ts
+#EXTINF:-1 tvg-id="Calle13.es" tvg-name="|ES|CALLE_13_HD" tvg-logo="http://i.imgur.com/R81C6jN.png" group-title="Espagnoles (España)",|ES|CALLE_13_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/713.ts
+#EXTINF:-1 tvg-id="Scifi.sp" tvg-name="|ES|SYFY_FHD" tvg-logo="https://i.imgur.com/3LroLPZ.png" group-title="Espagnoles (España)",|ES|SYFY_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/716.ts
+#EXTINF:-1 tvg-id="#0.es" tvg-name="|ES|CANAL_CERO_#0_HD" tvg-logo="http://i.imgur.com/VcfG0YY.png" group-title="Espagnoles (España)",|ES|CANAL_CERO_#0_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/662.ts
+#EXTINF:-1 tvg-id="CanalPlusComedia.es" tvg-name="|ES|MOVISTAR_COMEDIA_HD" tvg-logo="http://i.imgur.com/lcfBDS7.png" group-title="Espagnoles (España)",|ES|MOVISTAR_COMEDIA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/628.ts
+#EXTINF:-1 tvg-id="MovistarComedia.es" tvg-name="|ES|MOVISTAR_COMEDIA_FHD" tvg-logo="http://i.imgur.com/lcfBDS7.png" group-title="Espagnoles (España)",|ES|MOVISTAR_COMEDIA_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2238.ts
+#EXTINF:-1 tvg-id="Movistar.es" tvg-name="|ES|MOVISTAR_CINE_Ñ" tvg-logo="http://i.imgur.com/DnhuULC.png" group-title="Espagnoles (España)",|ES|MOVISTAR_CINE_Ñ
+http://king365tv.homeip.net:2103/live/test63894/mailtest/831.ts
+#EXTINF:-1 tvg-id="CanalPlusDCine.sp" tvg-name="|ES|MOVISTAR_DCINE_HD" tvg-logo="http://i.imgur.com/ah0liQU.png" group-title="Espagnoles (España)",|ES|MOVISTAR_DCINE_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/821.ts
+#EXTINF:-1 tvg-id="CanalPlusDCine.sp" tvg-name="|ES|MOVISTAR_DCINE_FHD" tvg-logo="http://i.imgur.com/ah0liQU.png" group-title="Espagnoles (España)",|ES|MOVISTAR_DCINE_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2113.ts
+#EXTINF:-1 tvg-id="CanalPlusSeries.sp" tvg-name="|ES|MOVISTAR_SERIES_HD" tvg-logo="http://i.imgur.com/4Bz5eA4.png" group-title="Espagnoles (España)",|ES|MOVISTAR_SERIES_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/807.ts
+#EXTINF:-1 tvg-id="CanalPlusSeries.sp" tvg-name="|ES|MOVISTAR_SERIES_FHD" tvg-logo="http://i.imgur.com/4Bz5eA4.png" group-title="Espagnoles (España)",|ES|MOVISTAR_SERIES_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2114.ts
+#EXTINF:-1 tvg-id="CanalPlusXtra.sp" tvg-name="|ES|MOVISTAR_XTRA_HD" tvg-logo="http://i.imgur.com/gASs5Hd.png" group-title="Espagnoles (España)",|ES|MOVISTAR_XTRA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/637.ts
+#EXTINF:-1 tvg-id="CanalPlusXtra.sp" tvg-name="|ES|MOVISTAR_XTRA_FHD" tvg-logo="http://i.imgur.com/gASs5Hd.png" group-title="Espagnoles (España)",|ES|MOVISTAR_XTRA_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2239.ts
+#EXTINF:-1 tvg-id="CcanalPlusSeriesXtra.es" tvg-name="|ES|MOVISTAR_SERIES_XTRA_HD" tvg-logo="http://i.imgur.com/MqqDOOg.png" group-title="Espagnoles (España)",|ES|MOVISTAR_SERIES_XTRA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/636.ts
+#EXTINF:-1 tvg-id="CanalPlusAccion.es" tvg-name="|ES|MOVISTAR_ACCION_HD" tvg-logo="http://i.imgur.com/6l7rNTR.png" group-title="Espagnoles (España)",|ES|MOVISTAR_ACCION_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/364.ts
+#EXTINF:-1 tvg-id="CanalPlusAccion.es" tvg-name="|ES|MOVISTAR_ACCION_FHD" tvg-logo="http://i.imgur.com/6l7rNTR.png" group-title="Espagnoles (España)",|ES|MOVISTAR_ACCION_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2267.ts
+#EXTINF:-1 tvg-id="CanalPlusEstrenos.sp" tvg-name="|ES|MOVISTAR_ESTRENOS_HD" tvg-logo="http://i.imgur.com/noM01bO.png" group-title="Espagnoles (España)",|ES|MOVISTAR_ESTRENOS_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/703.ts
+#EXTINF:-1 tvg-id="CanalPlusEstrenos.sp" tvg-name="|ES|MOVISTAR_ESTRENOS_FHD" tvg-logo="http://i.imgur.com/noM01bO.png" group-title="Espagnoles (España)",|ES|MOVISTAR_ESTRENOS_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2085.ts
+#EXTINF:-1 tvg-id="" tvg-name="▀▄ ES ▀▄▀▄▀▄ ENTRETENIMIENTO ▄▀▄▀▄▀" tvg-logo="" group-title="Espagnoles (España)",▀▄ ES ▀▄▀▄▀▄ ENTRETENIMIENTO ▄▀▄▀▄▀
+http://king365tv.homeip.net:2103/live/test63894/mailtest/3718.ts
+#EXTINF:-1 tvg-id="ComedyCentral.sp" tvg-name="|ES|COMEDY_CENTRAL_HD" tvg-logo="http://i.imgur.com/YwFrAKY.png" group-title="Espagnoles (España)",|ES|COMEDY_CENTRAL_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/717.ts
+#EXTINF:-1 tvg-id="" tvg-name="|ES|COMEDY_CENTRAL_FHD" tvg-logo="http://i.imgur.com/YwFrAKY.png" group-title="Espagnoles (España)",|ES|COMEDY_CENTRAL_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2204.ts
+#EXTINF:-1 tvg-id="TCM.sp" tvg-name="|ES|TCM_HD" tvg-logo="https://i.imgur.com/88Ilenw.png" group-title="Espagnoles (España)",|ES|TCM_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/702.ts
+#EXTINF:-1 tvg-id="Hollywood.sp" tvg-name="|ES|HOLLYWOOD_HD" tvg-logo="http://i.imgur.com/XeObews.png" group-title="Espagnoles (España)",|ES|HOLLYWOOD_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/635.ts
+#EXTINF:-1 tvg-id="Sundance.es" tvg-name="|ES|SUNDANCE_HD" tvg-logo="http://i.imgur.com/dJR9EBn.png" group-title="Espagnoles (España)",|ES|SUNDANCE_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/852.ts
+#EXTINF:-1 tvg-id="TNT.sp" tvg-name="|ES|TNT_HD" tvg-logo="http://i.imgur.com/BhEJRHy.png" group-title="Espagnoles (España)",|ES|TNT_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/714.ts
+#EXTINF:-1 tvg-id="" tvg-name="|ES|MEGA_HD" tvg-logo="http://i.imgur.com/u0t1Emt.png" group-title="Espagnoles (España)",|ES|MEGA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/836.ts
+#EXTINF:-1 tvg-id="Atreseries.es" tvg-name="|ES|A3SERIES_HD" tvg-logo="http://i.imgur.com/fuD7uhF.png" group-title="Espagnoles (España)",|ES|A3SERIES_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/964.ts
+#EXTINF:-1 tvg-id="" tvg-name="▀▄ ES ▀▄▀▄▀▄ DEPORTES ▄▀▄▀▄▀" tvg-logo="" group-title="Espagnoles (España)",▀▄ ES ▀▄▀▄▀▄ DEPORTES ▄▀▄▀▄▀
+http://king365tv.homeip.net:2103/live/test63894/mailtest/3716.ts
+#EXTINF:-1 tvg-id="CanalPlusDeportes.es" tvg-name="|ES|MOVISTAR_DEPORTES_1_HD" tvg-logo="http://i.imgur.com/4llinzb.png" group-title="Espagnoles (España)",|ES|MOVISTAR_DEPORTES_1_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/594.ts
+#EXTINF:-1 tvg-id="CanalPlusDeportes.es" tvg-name="|ES|MOVISTAR_DEPORTES_1_FHD" tvg-logo="" group-title="Espagnoles (España)",|ES|MOVISTAR_DEPORTES_1_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/6054.ts
+#EXTINF:-1 tvg-id="CanalPlusDeportes2.es" tvg-name="|ES|MOVISTAR_DEPORTES_2_HD" tvg-logo="http://i.imgur.com/mLrNrby.png" group-title="Espagnoles (España)",|ES|MOVISTAR_DEPORTES_2_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/593.ts
+#EXTINF:-1 tvg-id="MovistarDeportes2.es" tvg-name="|ES|MOVISTAR_DEPORTES_2_FHD" tvg-logo="http://i.imgur.com/mLrNrby.png" group-title="Espagnoles (España)",|ES|MOVISTAR_DEPORTES_2_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2266.ts
+#EXTINF:-1 tvg-id="TV3cat.sp" tvg-name="|ES|SPORT_3_CAT_HD" tvg-logo="" group-title="Espagnoles (España)",|ES|SPORT_3_CAT_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2120.ts
+#EXTINF:-1 tvg-id="MovistarFormula1.es" tvg-name="|ES|MOVISTAR_F1_HD" tvg-logo="http://i.imgur.com/9db4VlE.png" group-title="Espagnoles (España)",|ES|MOVISTAR_F1_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/621.ts
+#EXTINF:-1 tvg-id="MovistarFormula1.es" tvg-name="|ES|MOVISTAR_F1_FHD" tvg-logo="http://i.imgur.com/9db4VlE.png" group-title="Espagnoles (España)",|ES|MOVISTAR_F1_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2574.ts
+#EXTINF:-1 tvg-id="MovistarMotoGP.es" tvg-name="|ES|MOVISTAR _MOTOGP_HD" tvg-logo="http://i.imgur.com/hyWJwdE.png" group-title="Espagnoles (España)",|ES|MOVISTAR _MOTOGP_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/622.ts
+#EXTINF:-1 tvg-id="MovistarMotoGP.es" tvg-name="|ES|MOVISTAR _MOTOGP_FHD" tvg-logo="http://i.imgur.com/hyWJwdE.png" group-title="Espagnoles (España)",|ES|MOVISTAR _MOTOGP_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2575.ts
+#EXTINF:-1 tvg-id="CanalPlusFutbol.es" tvg-name="|ES|MOVISTAR_FUTBOL_HD" tvg-logo="http://i.imgur.com/Xxly07K.png" group-title="Espagnoles (España)",|ES|MOVISTAR_FUTBOL_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/641.ts
+#EXTINF:-1 tvg-id="CanalPlusFutbol.es" tvg-name="|ES|MOVISTAR_FUTBOL_FHD" tvg-logo="http://i.imgur.com/Xxly07K.png" group-title="Espagnoles (España)",|ES|MOVISTAR_FUTBOL_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2115.ts
+#EXTINF:-1 tvg-id="BeINSports.es" tvg-name="|ES|BeIN_España_HD" tvg-logo="http://i.imgur.com/mpBY0lE.png" group-title="Espagnoles (España)",|ES|BeIN_España_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/361.ts
+#EXTINF:-1 tvg-id="BeINSports.es" tvg-name="|ES|BeIN_España_FHD" tvg-logo="http://i.imgur.com/I170Y7W.png" group-title="Espagnoles (España)",|ES|BeIN_España_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2083.ts
+#EXTINF:-1 tvg-id="BeINLaLiga.es" tvg-name="|ES|BeIN_LALIGA_HD" tvg-logo="http://i.imgur.com/I170Y7W.png" group-title="Espagnoles (España)",|ES|BeIN_LALIGA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/362.ts
+#EXTINF:-1 tvg-id="LaLiga.es" tvg-name="|ES|BeIN_LALIGA_FHD" tvg-logo="http://i.imgur.com/I170Y7W.png" group-title="Espagnoles (España)",|ES|BeIN_LALIGA_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2082.ts
+#EXTINF:-1 tvg-id="LaLiga.es" tvg-name="|ES|LALIGA_TV_BAR_HD" tvg-logo="http://i.imgur.com/297r4x2.png" group-title="Espagnoles (España)",|ES|LALIGA_TV_BAR_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/638.ts
+#EXTINF:-1 tvg-id="LaLiga.es" tvg-name="|ES|LALIGA_TV_BAR_FHD" tvg-logo="http://i.imgur.com/297r4x2.png" group-title="Espagnoles (España)",|ES|LALIGA_TV_BAR_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2084.ts
+#EXTINF:-1 tvg-id="LaLiga123.es" tvg-name="|ES|BEIN_LA_LIGA_123_FHD" tvg-logo="" group-title="Espagnoles (España)",|ES|BEIN_LA_LIGA_123_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2155.ts
+#EXTINF:-1 tvg-id="" tvg-name="|ES|FOX_SPORT_1_LATINO" tvg-logo="" group-title="Espagnoles (España)",|ES|FOX_SPORT_1_LATINO
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2110.ts
+#EXTINF:-1 tvg-id="" tvg-name="|ES|FOX_SPORT_2_LATINO" tvg-logo="" group-title="Espagnoles (España)",|ES|FOX_SPORT_2_LATINO
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2111.ts
+#EXTINF:-1 tvg-id="" tvg-name="|ES|FOX_SPORT_3_LATINO" tvg-logo="" group-title="Espagnoles (España)",|ES|FOX_SPORT_3_LATINO
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2112.ts
+#EXTINF:-1 tvg-id="Eurosport1.es" tvg-name="|ES|EUROSPORT_1_HD" tvg-logo="http://i.imgur.com/MNX6Be8.png" group-title="Espagnoles (España)",|ES|EUROSPORT_1_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/640.ts
+#EXTINF:-1 tvg-id="EurosportHD.sp" tvg-name="|ES|EUROSPORT_1_FHD" tvg-logo="http://i.imgur.com/MNX6Be8.png" group-title="Espagnoles (España)",|ES|EUROSPORT_1_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/4346.ts
+#EXTINF:-1 tvg-id="Eurosport2.es" tvg-name="|ES|EUROSPORT_2_HD" tvg-logo="http://i.imgur.com/tENUR8u.png" group-title="Espagnoles (España)",|ES|EUROSPORT_2_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/695.ts
+#EXTINF:-1 tvg-id="" tvg-name="|ES|GOL_TV" tvg-logo="" group-title="Espagnoles (España)",|ES|GOL_TV
+http://king365tv.homeip.net:2103/live/test63894/mailtest/858.ts
+#EXTINF:-1 tvg-id="Teledeporte.sp" tvg-name="|ES|TELEDEPORTE_HD" tvg-logo="http://i.imgur.com/FFVjhrg.png" group-title="Espagnoles (España)",|ES|TELEDEPORTE_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/863.ts
+#EXTINF:-1 tvg-id="Teledeporte.sp" tvg-name="|ES|TELEDEPORTE_FHD" tvg-logo="http://i.imgur.com/FFVjhrg.png" group-title="Espagnoles (España)",|ES|TELEDEPORTE_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2122.ts
+#EXTINF:-1 tvg-id="BarcaTV.es" tvg-name="|ES|BARCA_TV" tvg-logo="http://i.imgur.com/0dJLXsD.png" group-title="Espagnoles (España)",|ES|BARCA_TV
+http://king365tv.homeip.net:2103/live/test63894/mailtest/643.ts
+#EXTINF:-1 tvg-id="RealMadridTV.sp" tvg-name="|ES|REAL_MADRID_TV" tvg-logo="http://i.imgur.com/OyDzdLL.png" group-title="Espagnoles (España)",|ES|REAL_MADRID_TV
+http://king365tv.homeip.net:2103/live/test63894/mailtest/620.ts
+#EXTINF:-1 tvg-id="Golf.sp" tvg-name="|ES|M_GOLF_HD" tvg-logo="http://i.imgur.com/TsDv1k8.png" group-title="Espagnoles (España)",|ES|M_GOLF_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/660.ts
+#EXTINF:-1 tvg-id="Golf.sp" tvg-name="|ES|M_GOLF_FHD" tvg-logo="http://i.imgur.com/TsDv1k8.png" group-title="Espagnoles (España)",|ES|M_GOLF_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2203.ts
+#EXTINF:-1 tvg-id="CanalPlusToros.es" tvg-name="|ES|CANAL+TOROS_HD" tvg-logo="http://i.imgur.com/cWmQ4W2.png" group-title="Espagnoles (España)",|ES|CANAL+TOROS_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/661.ts
+#EXTINF:-1 tvg-id="CanalPlusToros.es" tvg-name="|ES|CANAL+TOROS_FHD" tvg-logo="http://i.imgur.com/cWmQ4W2.png" group-title="Espagnoles (España)",|ES|CANAL+TOROS_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/6058.ts
+#EXTINF:-1 tvg-id="" tvg-name="▀▄ ES ▀▄▀▄▀▄  SOLO PARTIDOS ▄▀▄▀▄▀" tvg-logo="" group-title="Espagnoles (España)",▀▄ ES ▀▄▀▄▀▄  SOLO PARTIDOS ▄▀▄▀▄▀
+http://king365tv.homeip.net:2103/live/test63894/mailtest/4113.ts
+#EXTINF:-1 tvg-id="MovistarPartidazo.es" tvg-name="|ES|M.PARTIDAZO_(Solo_partidos)_HD" tvg-logo="" group-title="Espagnoles (España)",|ES|M.PARTIDAZO_(Solo_partidos)_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/827.ts
+#EXTINF:-1 tvg-id="F1Multi1.es" tvg-name="|ES|MULTIDEPORTE_1" tvg-logo="" group-title="Espagnoles (España)",|ES|MULTIDEPORTE_1
+http://king365tv.homeip.net:2103/live/test63894/mailtest/1620.ts
+#EXTINF:-1 tvg-id="F1Multi2.es" tvg-name="|ES|MULTIDEPORTE_2" tvg-logo="" group-title="Espagnoles (España)",|ES|MULTIDEPORTE_2
+http://king365tv.homeip.net:2103/live/test63894/mailtest/1621.ts
+#EXTINF:-1 tvg-id="LaLiga123Multi3.es" tvg-name="|ES|MULTIDEPORTE_3" tvg-logo="" group-title="Espagnoles (España)",|ES|MULTIDEPORTE_3
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2811.ts
+#EXTINF:-1 tvg-id="beINMAX1.es" tvg-name="|ES|BEIN_MAX_1_(Solo partidos)" tvg-logo="http://i.imgur.com/tHOnw34.png" group-title="Espagnoles (España)",|ES|BEIN_MAX_1_(Solo partidos)
+http://king365tv.homeip.net:2103/live/test63894/mailtest/822.ts
+#EXTINF:-1 tvg-id="beINMAX2.es" tvg-name="|ES|BEIN_MAX_2_(Solo_partidos)" tvg-logo="http://i.imgur.com/tHOnw34.png" group-title="Espagnoles (España)",|ES|BEIN_MAX_2_(Solo_partidos)
+http://king365tv.homeip.net:2103/live/test63894/mailtest/823.ts
+#EXTINF:-1 tvg-id="" tvg-name="|ES|BEIN_MAX_3_(Solo_partidos)" tvg-logo="http://i.imgur.com/tHOnw34.png" group-title="Espagnoles (España)",|ES|BEIN_MAX_3_(Solo_partidos)
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2229.ts
+#EXTINF:-1 tvg-id="" tvg-name="|ES|BEIN_MAX_4_(Solo_partidos)" tvg-logo="http://i.imgur.com/tHOnw34.png" group-title="Espagnoles (España)",|ES|BEIN_MAX_4_(Solo_partidos)
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2230.ts
+#EXTINF:-1 tvg-id="LaLiga123Multi1.es" tvg-name="|ES|MULTIFUT_1_HD_(Solo_partidos)" tvg-logo="" group-title="Espagnoles (España)",|ES|MULTIFUT_1_HD_(Solo_partidos)
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2282.ts
+#EXTINF:-1 tvg-id="LaLiga123Multi2.es" tvg-name="|ES|MULTIFUT_2_HD_(Solo_partidos)" tvg-logo="" group-title="Espagnoles (España)",|ES|MULTIFUT_2_HD_(Solo_partidos)
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2283.ts
+#EXTINF:-1 tvg-id="LaLiga123Multi3.es" tvg-name="|ES|MULTIFUT_3_HD_(Solo_partidos)" tvg-logo="" group-title="Espagnoles (España)",|ES|MULTIFUT_3_HD_(Solo_partidos)
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2284.ts
+#EXTINF:-1 tvg-id="LaLiga123Multi4.es" tvg-name="|ES|MULTIFUT_4_HD_(Solo_partidos)" tvg-logo="" group-title="Espagnoles (España)",|ES|MULTIFUT_4_HD_(Solo_partidos)
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2285.ts
+#EXTINF:-1 tvg-id="" tvg-name="▀▄ ES ▀▄▀▄▀▄ DOCUMENTAL ▄▀▄▀▄▀" tvg-logo="" group-title="Espagnoles (España)",▀▄ ES ▀▄▀▄▀▄ DOCUMENTAL ▄▀▄▀▄▀
+http://king365tv.homeip.net:2103/live/test63894/mailtest/3719.ts
+#EXTINF:-1 tvg-id="IberaliaTV.es" tvg-name="|ES|IBERALIA_TV" tvg-logo="http://i.imgur.com/2uhsmPU.png" group-title="Espagnoles (España)",|ES|IBERALIA_TV
+http://king365tv.homeip.net:2103/live/test63894/mailtest/723.ts
+#EXTINF:-1 tvg-id="DiscoveryChannel.sp" tvg-name="|ES|DISCOVERY_HD" tvg-logo="http://i.imgur.com/jvvbM2m.png" group-title="Espagnoles (España)",|ES|DISCOVERY_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/642.ts
+#EXTINF:-1 tvg-id="NationalGeographic.sp" tvg-name="|ES|NAT_GEO_HD" tvg-logo="http://i.imgur.com/XqYWZwL.png" group-title="Espagnoles (España)",|ES|NAT_GEO_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/597.ts
+#EXTINF:-1 tvg-id="NatGeoWild.sp" tvg-name="|ES|NAT_GEO_FHD" tvg-logo="http://i.imgur.com/XqYWZwL.png" group-title="Espagnoles (España)",|ES|NAT_GEO_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2154.ts
+#EXTINF:-1 tvg-id="NatGeoWild.sp" tvg-name="|ES|NAT_GEO_WILD_HD" tvg-logo="http://i.imgur.com/ujxfO8I.png" group-title="Espagnoles (España)",|ES|NAT_GEO_WILD_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/820.ts
+#EXTINF:-1 tvg-id="NatGeoWild.sp" tvg-name="|ES|NAT_GEO_WILD_FHD" tvg-logo="http://i.imgur.com/ujxfO8I.png" group-title="Espagnoles (España)",|ES|NAT_GEO_WILD_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2153.ts
+#EXTINF:-1 tvg-id="AandE.es" tvg-name="|ES|AE_HD" tvg-logo="http://i.imgur.com/iqskkvT.png" group-title="Espagnoles (España)",|ES|AE_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/811.ts
+#EXTINF:-1 tvg-id="CrimeAndInvestigation.es" tvg-name="|ES|CRIMEN_e_INVESTIGACIóN" tvg-logo="http://i.imgur.com/fTqdgBs.png" group-title="Espagnoles (España)",|ES|CRIMEN_e_INVESTIGACIóN
+http://king365tv.homeip.net:2103/live/test63894/mailtest/866.ts
+#EXTINF:-1 tvg-id="Odisea.sp" tvg-name="|ES|ODISEA_HD" tvg-logo="http://i.imgur.com/hctMEk7.png" group-title="Espagnoles (España)",|ES|ODISEA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/743.ts
+#EXTINF:-1 tvg-id="CazayPesca.es" tvg-name="|ES|CAZA_Y_PESCA_HD" tvg-logo="http://i.imgur.com/vNpqyUe.png" group-title="Espagnoles (España)",|ES|CAZA_Y_PESCA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/626.ts
+#EXTINF:-1 tvg-id="CazayPesca.es" tvg-name="|ES|CAZA_Y_PESCA_FHD" tvg-logo="http://i.imgur.com/vNpqyUe.png" group-title="Espagnoles (España)",|ES|CAZA_Y_PESCA_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2202.ts
+
+#EXTINF:-1 tvg-id="Cocina.sp" tvg-name="|ES|CANAL_COCINA_HD" tvg-logo="http://i.imgur.com/oRaJMoT.png" group-title="Espagnoles (España)",|ES|CANAL_COCINA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/742.ts
+#EXTINF:-1 tvg-id="Decasa.sp" tvg-name="|ES|DECASA_HD" tvg-logo="http://i.imgur.com/ZOa6PZL.png" group-title="Espagnoles (España)",|ES|DECASA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/741.ts
+#EXTINF:-1 tvg-id="Viajar.es" tvg-name="|ES|VIAJAR_HD" tvg-logo="http://i.imgur.com/uCYBK0f.png" group-title="Espagnoles (España)",|ES|VIAJAR_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/739.ts
+#EXTINF:-1 tvg-id="Viajar.es" tvg-name="|ES|VIAJAR_FHD" tvg-logo="http://i.imgur.com/uCYBK0f.png" group-title="Espagnoles (España)",|ES|VIAJAR_FHD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2201.ts
+#EXTINF:-1 tvg-id="Historia.sp" tvg-name="|ES|HISTORIA_HD" tvg-logo="http://i.imgur.com/P9kfz8M.png" group-title="Espagnoles (España)",|ES|HISTORIA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/712.ts
+#EXTINF:-1 tvg-id="" tvg-name="▀▄ ES ▀▄▀▄▀▄  NIÑOS ▄▀▄▀▄▀" tvg-logo="" group-title="Espagnoles (España)",▀▄ ES ▀▄▀▄▀▄  NIÑOS ▄▀▄▀▄▀
+http://king365tv.homeip.net:2103/live/test63894/mailtest/3715.ts
+#EXTINF:-1 tvg-id="MovistarDisney.es" tvg-name="|ES|MOVISTAR _DISNEY" tvg-logo="" group-title="Espagnoles (España)",|ES|MOVISTAR _DISNEY
+http://king365tv.homeip.net:2103/live/test63894/mailtest/6053.ts
+#EXTINF:-1 tvg-id="Boing.sp" tvg-name="|ES|BOING" tvg-logo="http://i.imgur.com/qahzABa.png" group-title="Espagnoles (España)",|ES|BOING
+http://king365tv.homeip.net:2103/live/test63894/mailtest/719.ts
+#EXTINF:-1 tvg-id="Panda.es" tvg-name="|ES|CANAL_PANDA_HD" tvg-logo="http://i.imgur.com/BvvNkf2.png" group-title="Espagnoles (España)",|ES|CANAL_PANDA_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/718.ts
+#EXTINF:-1 tvg-id="DiscoveryChannel.sp" tvg-name="|ES|DISNEY_CHANNEL_HD" tvg-logo="http://i.imgur.com/YKSujcL.png" group-title="Espagnoles (España)",|ES|DISNEY_CHANNEL_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/848.ts
+#EXTINF:-1 tvg-id="DisneyXD.sp" tvg-name="|ES|DISNEY_XD_HD" tvg-logo="http://i.imgur.com/zOkcoC4.png" group-title="Espagnoles (España)",|ES|DISNEY_XD_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/720.ts
+#EXTINF:-1 tvg-id="Nickelodeon.sp" tvg-name="|ES|NICKELODEON_HD" tvg-logo="http://i.imgur.com/CZTnf46.png" group-title="Espagnoles (España)",|ES|NICKELODEON_HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/828.ts
+#EXTINF:-1 tvg-id="NickJunior.sp" tvg-name="|ES|NICK_JUNIOR" tvg-logo="http://i.imgur.com/2M70E4X.png" group-title="Espagnoles (España)",|ES|NICK_JUNIOR
+http://king365tv.homeip.net:2103/live/test63894/mailtest/853.ts
+#EXTINF:-1 tvg-id="ClanTVE.sp" tvg-name="|ES|CLAN_TVE" tvg-logo="" group-title="Espagnoles (España)",|ES|CLAN_TVE
+http://king365tv.homeip.net:2103/live/test63894/mailtest/721.ts
+#EXTINF:-1 tvg-id="BabyTV.sp" tvg-name="|ES|BABY_TV" tvg-logo="http://i.imgur.com/mvKqqwO.png" group-title="Espagnoles (España)",|ES|BABY_TV
+http://king365tv.homeip.net:2103/live/test63894/mailtest/623.ts
+#EXTINF:-1 tvg-id="" tvg-name="▀▄ ES ▀▄▀▄▀▄ MUSICA ▄▀▄▀▄▀" tvg-logo="" group-title="Espagnoles (España)",▀▄ ES ▀▄▀▄▀▄ MUSICA ▄▀▄▀▄▀
+http://king365tv.homeip.net:2103/live/test63894/mailtest/3717.ts
+#EXTINF:-1 tvg-id="MTVEsp.sp" tvg-name="|ES|MTV_ESP" tvg-logo="http://i.imgur.com/yKodmlz.png" group-title="Espagnoles (España)",|ES|MTV_ESP
+http://king365tv.homeip.net:2103/live/test63894/mailtest/813.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|NL| MTV BRAND NEW" tvg-logo="" group-title="Netherlands (NL)",|NL| MTV BRAND NEW
+http://king365tv.homeip.net:2103/live/test63894/mailtest/5130.ts
+#EXTINF:-1 tvg-id="" tvg-name="|NL| MTV FULL HD" tvg-logo="" group-title="Netherlands (NL)",|NL| MTV FULL HD
+http://king365tv.homeip.net:2103/live/test63894/mailtest/5129.ts
+#EXTINF:-1 tvg-id="" tvg-name="|NL| MTV HITS" tvg-logo="" group-title="Netherlands (NL)",|NL| MTV HITS
+http://king365tv.homeip.net:2103/live/test63894/mailtest/5128.ts
+#EXTINF:-1 tvg-id="" tvg-name="|NL| MTV MUSIC 24" tvg-logo="" group-title="Netherlands (NL)",|NL| MTV MUSIC 24
+http://king365tv.homeip.net:2103/live/test63894/mailtest/5127.ts
+#EXTINF:-1 tvg-id="" tvg-name="|NL| NICK HITS / MUSIC" tvg-logo="" group-title="Netherlands (NL)",|NL| NICK HITS / MUSIC
+http://king365tv.homeip.net:2103/live/test63894/mailtest/5126.ts
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/canal-0.jpg" group-title=#0
+http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/611/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-accion.jpg" group-title=Movistar + Accion
-http://mypanel.tv:8080/live/berto/berto/7195.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-comedia.jpg" group-title=Movistar + Comedia
-http://wohuogai.com:58000/live/uruguayiptv_366716/jAJU6d3D2r/29055.ts
+http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/605/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-comedia.jpg" group-title=Movistar + Comedia
 http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/606/index.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-comedia.jpg" group-title=Movistar + Comedia
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/580/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-dcine.jpg" group-title=¡Movistar + DCine
-http://wohuogai.com:58000/live/uruguayiptv_366716/jAJU6d3D2r/29056.ts
-#EXTINF:-1 tvg-logo="http://www.movistarplus.es/recorte/m-NEO/ficha/CFERIA.png" group-title=Toros
-http://1sn.ns1.name:18800/live/asnjeri1AlbLocBoxFreeForMe/fdsgrewgeafwegea/1607.ts
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/canal-0.jpg" group-title=#0
-http://mypanel.tv:8080/live/berto/berto/8770.m3u8
-#EXTINF:-1 tvg-logo="https://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/paramountchannel.jpg" group-title=¡Paramount Channel
-http://198.255.114.218:8000/live/camaney/camaney/296.ts
+#EXTINF:-1 tvg-logo="https://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-dcine.jpg" group-title=Movistar + DCine
+http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/607/index.m3u8
+#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-series-extra.jpg" group-title=Movistar + Series Xtra
+http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/568/index.m3u8
+#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/fox.jpg" group-title=Fox
+http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/608/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/foxcrime.jpg" group-title=Fox Life
+http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/601/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/hollywood.jpg" group-title=Hollywood
 http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/578/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/tcm.jpg" group-title=TCM
-http://mypanel.tv:8080/live/berto/berto/7180.m3u8
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/axn.jpg" group-title=AXN
 http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/610/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/axn-white.jpg" group-title=AXN White
 http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/609/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/mgm.jpg" group-title=AMC
 http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/614/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Ten ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=beIN Sports HD ES
-http://mypanel.tv:8080/live/berto/berto/8784.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Movistar + FUTBOL FHD ES
-http://playlist.onlybest.tv/ru/channel/d0f21a70397d3659fe259aa5e2a62107/575/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=bein Sports Espana FHD ES
-http://mypanel.tv:8080/live/berto/berto/7248.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Movistar + LaLiga HD ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Teledeporte ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Barca TV ES
-http://mypanel.tv:8080/live/berto/berto/7250.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Sevilla Channel ES
-http://mypanel.tv:8080/live/berto/berto/8742.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Eurosport 1 ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Eurosport 2 ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Caza y Pesca HD ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Iberalia ES
-http://mypanel.tv:8080/live/berto/berto/7171.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Discovery Channel ES
-http://mypanel.tv:8080/live/berto/berto/7226.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡National Geographic ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡National Geographic HD ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Historia ES
-http://mypanel.tv:8080/live/berto/berto/7217.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡National Geographic FHD ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Nat Geo Wild ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Viajar FHD ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Canal Cocina ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Crime & Investigation ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Discovery Dmax ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=DW ES
-http://mypanel.tv:8080/live/berto/berto/13532.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Travel TV ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Baby TV ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=BOING ES
-http://mypanel.tv:8080/live/berto/berto/8773.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Clan TVE ES
-http://mypanel.tv:8080/live/berto/berto/7231.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Disney Channel HD ES
-http://mypanel.tv:8080/live/berto/berto/7225.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Disney Junior ES
-http://mypanel.tv:8080/live/berto/berto/7224.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Disney XD ES
-http://mypanel.tv:8080/live/berto/berto/7223.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Nick Jr. ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Mezzo HD ES
-http://mypanel.tv:8080/live/berto/berto/7212.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡SOL Musica ES
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Movistar + Deportes 1
-http://mypanel.tv:8080/live/berto/berto/7240.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Movistar + Liga
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Movistar + Deportes 2
-http://mypanel.tv:8080/live/berto/berto/7239.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=M. Deportes 1
-http://mypanel.tv:8080/live/berto/berto/16278.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡M. Deportes 2
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Movistar + Fútbol
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Movistar + Cine Ñ
-http://mypanel.tv:8080/live/berto/berto/7227.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Movistar + Disney
-http://mypanel.tv:8080/live/berto/berto/19472.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Movistar + Futbol
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Movistar + Partidazo
-http://mypanel.tv:8080/live/berto/berto/13220.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Partidazo FHD (Solo Eventos)
-http://mypanel.tv:8080/live/berto/berto/16286.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡De Casa
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=¡Odisea TV
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Sundance TV
-http://mypanel.tv:8080/live/berto/berto/14121.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=TVE Clan
-http://mypanel.tv:8080/live/berto/berto/8764.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Disney Channel
-http://mypanel.tv:8080/live/berto/berto/16287.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/canal-0.jpg" group-title=#0
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/611/index.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/foxcrime.jpg group-title=Fox Life
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/601/index.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/foxcrime.jpg" group-title=Fox Life
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/567/index.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-series-extra.jpg" group-title=M. Series Xtra
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/568/index.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/comedy-central.jpg" group-title=Comedy Central
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/573/index.m3u8
-#EXTINF:-1tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/axn.jpg" group-title=AXN
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/579/index.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-accion.jpg" group-title=M. Acción
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/605/index.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-dcine.jpg" group-title=M. DCine
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/607/index.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/iberalia.jpg group-title=Iberalia
+#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Iberalia
 http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/603/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/disneyjunior.jpg" group-title=Disney Junior
 http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/604/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/hHaTdZk.png" group-title=La Xarxa
-http://video-streaming.laxarxa.com:1935/xal1/mp4:directe/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/VlMzpJH.png" group-title=Canal 13 España
-http://streaming.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/mobile/.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/bNXH4cj.png" group-title=Real Madrid TV
-http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FTLjroU.png" group-title=Sevilla FC
-http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/fJR4kYE.png" group-title=Nova
-http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title=Disney Junior ES
+http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/604/index.m3u8
+#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/comedy-central.jpg" group-title=Comedy Central
+http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/573/index.m3u8
+#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/iberalia.jpg group-title=Iberalia
+http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/603/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-golf.jpg" group-title=Movistar+ Golf
 http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/569/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/bein-laliga.png" group-title=beIN LaLiga
@@ -214,20 +332,18 @@ http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/574/inde
 http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/575/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/bein-laliga.png" group-title=LaLiga TV Bar
 http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/581/index.m3u8
-#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-formula1.jpg" group-title=Movistar+ F1
-http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/612/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MuXjC6K.png" group-title=Movistar+ F1
+http://king365tv.homeip.net:2103/live/test63894/mailtest/2574.ts
 #EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-motogp.jpg"  group-title=Movistar+ Moto GP
 http://playlist.onlybest.tv/ru/channel/ccd1cc9adb89911e86a241fe67161617/613/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/VTeboaN.png" group-title=Bein Sports 2
+#EXTINF:-1 tvg-logo="http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/bein-laliga.png" group-title=Bein Sports 2
 http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/574/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/UpqhqzL.jpg" group-title=La Liga TV
 http://playlist.onlybest.tv/ru/channel/f772b8505cfea04b38985616da5f973f/581/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/fUKODzu.png" group-title=Movistar Futbol
-http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/575/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RvUxWgn.png" group-title=Movistar MotoGP
 http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/613/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/DnTCqMT.png" group-title=Movistar Golf
 http://playlist.onlybest.tv/ru/channel/262f9cb9e35b2e64d0571c3e9c1cd4fa/569/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MuXjC6K.png" group-title=Movistar Formula 1
-http://1sn.ns1.name:18800/live/asnjeri1AlbLocBoxFreeForMe/fdsgrewgeafwegea/3598.ts
+#EXTINF:-1 tvg-logo="http://www.schau-hd.tv/attachments/30/DMAX.png" group-title=DMAX HD
+http://tvbezgranica.org:8000/live/rJu21qv4jD/D8l5xpChJ3/505.ts
 
